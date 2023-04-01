@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;	
+
+/* Raw Css Start here */
+
+.btn{
+    @apply text-center m-auto bg-blue-600 py-3 px-[20px] text-white text-lg uppercase font-bold hover:bg-white hover:text-black transition-colors;
+}
